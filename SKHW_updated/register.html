@@ -492,116 +492,18 @@ fieldset legend{ font-weight: 700; font-size: 0.9rem; color: var(--twilight); pa
       <p><strong>Safeguarding first.</strong> We collect contact details for a school official or guardian only &mdash; never a participating girl&rsquo;s personal phone number, email, or address. All communication about the program runs through the adult listed on this form.</p>
     </div>
 
-    <form class="form-shell" data-async data-form="registration" data-success="Thank you &mdash; your registration has been received. Our team will follow up with the responsible contact within 3&ndash;5 working days." action="REPLACE_WITH_FORM_ENDPOINT" method="POST">
-
-      <fieldset>
-        <legend>About the group</legend>
-        <div class="field">
-          <label for="school">School / community group name</label>
-          <input type="text" id="school" name="school_name" required autocomplete="organization">
-        </div>
-        <div class="grid-form-2">
-          <div class="field">
-            <label for="girls-count">Number of girls attending</label>
-            <input type="number" id="girls-count" name="girls_count" min="1" max="500" required>
-          </div>
-          <div class="field">
-            <label for="age-range">Age range of participants</label>
-            <select id="age-range" name="age_range" required>
-              <option value="">Select a range</option>
-              <option value="10-12">10&ndash;12</option>
-              <option value="13-15">13&ndash;15</option>
-              <option value="16-18">16&ndash;18</option>
-              <option value="mixed">Mixed ages</option>
-            </select>
-          </div>
-        </div>
-        <div class="field">
-          <label for="state">State / LGA</label>
-          <input type="text" id="state" name="state_lga" required placeholder="e.g. Ikeja, Lagos">
-        </div>
-      </fieldset>
-
-      <fieldset>
-        <legend>Responsible contact (school staff or guardian)</legend>
-        <p class="hint" style="margin:-0.6rem 0 1rem;">This person receives all program communication. We do not collect direct contact details for individual girls.</p>
-        <div class="grid-form-2">
-          <div class="field">
-            <label for="contact-name">Full name</label>
-            <input type="text" id="contact-name" name="contact_name" required autocomplete="name">
-          </div>
-          <div class="field">
-            <label for="contact-role">Role</label>
-            <select id="contact-role" name="contact_role" required>
-              <option value="">Select a role</option>
-              <option value="school-staff">School staff / teacher</option>
-              <option value="school-admin">School administrator</option>
-              <option value="parent-guardian">Parent / guardian</option>
-              <option value="community-leader">Community organiser</option>
-            </select>
-          </div>
-        </div>
-        <div class="grid-form-2">
-          <div class="field">
-            <label for="contact-email">Email address</label>
-            <input type="email" id="contact-email" name="contact_email" required autocomplete="email">
-          </div>
-          <div class="field">
-            <label for="contact-phone">Phone number</label>
-            <input type="tel" id="contact-phone" name="contact_phone" required autocomplete="tel">
-          </div>
-        </div>
-      </fieldset>
-
-      <fieldset>
-        <legend>Session preference</legend>
-        <div class="field">
-          <label for="session-window">Preferred timing</label>
-          <select id="session-window" name="session_window" required>
-            <option value="">Select a preference</option>
-            <option value="next-available">Next available date</option>
-            <option value="within-4-weeks">Within the next 4 weeks</option>
-            <option value="specific-term">A specific school term (mention below)</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="notes">Anything else we should know?</label>
-          <textarea id="notes" name="notes" placeholder="Accessibility needs, preferred dates, venue details, etc. (optional)"></textarea>
-        </div>
-      </fieldset>
-
-      <fieldset>
-        <legend>Consent &amp; safeguarding</legend>
-        <div class="check-row">
-          <input type="checkbox" id="consent-guardian" name="consent_guardian" required>
-          <label for="consent-guardian">I confirm I am authorised to register this group and that guardian/school consent will be secured before Session 1.</label>
-        </div>
-        <div class="check-row">
-          <input type="checkbox" id="consent-safeguard" name="consent_safeguarding" required>
-          <label for="consent-safeguard">I have read and agree to the She Knows Her Worth safeguarding policy governing how girls&rsquo; information and images are handled.</label>
-        </div>
-        <div class="check-row">
-          <input type="checkbox" id="consent-media" name="consent_media">
-          <label for="consent-media">I consent to anonymised photos or testimonials from the session being used for the organisation&rsquo;s reporting and outreach (optional).</label>
-        </div>
-      </fieldset>
-
-      <div class="field">
-        <label for="hear-about">How did you hear about us? <span style="font-weight:400; color:var(--ink-soft);">(optional)</span></label>
-        <select id="hear-about" name="referral_source">
-          <option value="">Select an option</option>
-          <option value="social-media">Social media</option>
-          <option value="word-of-mouth">Word of mouth</option>
-          <option value="school-partner">School / partner organisation</option>
-          <option value="event">An event</option>
-          <option value="other">Other</option>
-        </select>
-      </div>
-
-      <button type="submit" class="btn btn-primary btn-full">Submit registration</button>
-      <p class="hint center" style="margin-top:1rem;">By submitting, you agree to be contacted by our team regarding this registration.</p>
-      <div class="form-status" role="status" aria-live="polite"></div>
-    </form>
+    <div class="form-shell" style="padding:0; overflow:hidden;">
+  <iframe
+    src="https://docs.google.com/forms/d/e/1FAIpQLScrEj8Lcs_hJS2ECyKFYYlpq7U5Z-PtWEjVZSqNhk4U2zBVHA/viewform?embedded=true"
+    width="100%"
+    height="1360"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+    style="display:block; border:none;">
+    Loading&hellip;
+  </iframe>
+</div>
   </div>
 </section>
 </main><footer class="site-footer">
