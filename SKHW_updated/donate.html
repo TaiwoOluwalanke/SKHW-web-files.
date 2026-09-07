@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Donate · She Knows Her Worth</title>
-<meta name="description" content="Give a one-time or monthly donation to She Knows Her Worth in Naira-denominated tiers, supporting menstrual dignity kits, sessions, and cohort sponsorships.">
+<title>Donate School Supplies · She Knows Her Worth</title>
+<meta name="description" content="Donate school supplies or money to support secondary-school-aged girls through She Knows Her Worth.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <style>
 /* ==========================================================================
@@ -345,8 +345,12 @@ fieldset legend{ font-weight: 700; font-size: 0.9rem; color: var(--twilight); pa
 .radio-row, .check-row{ display: flex; align-items: flex-start; gap: 0.65rem; margin-bottom: 0.6rem; }
 .radio-row input, .check-row input{ margin-top: 0.28rem; width: 18px; height: 18px; accent-color: var(--marigold-deep); flex-shrink: 0; }
 .radio-row label, .check-row label{ font-weight: 500; color: var(--ink); font-size: 0.94rem; }
+.check-grid{ display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.7rem 1rem; }
+.check-grid label{ display: flex; align-items: flex-start; gap: 0.65rem; color: var(--ink); font-size: 0.94rem; }
+.check-grid input{ margin-top: 0.28rem; width: 18px; height: 18px; accent-color: var(--marigold-deep); flex-shrink: 0; }
 .grid-form-2{ display: grid; grid-template-columns: 1fr 1fr; gap: 0 1.2rem; }
 @media (max-width: 640px){ .grid-form-2{ grid-template-columns: 1fr; } }
+@media (max-width: 520px){ .check-grid{ grid-template-columns: 1fr; } }
 
 .safeguard-note{
   display: flex; gap: 0.9rem; align-items: flex-start;
@@ -466,7 +470,8 @@ fieldset legend{ font-weight: 700; font-size: 0.9rem; color: var(--twilight); pa
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">Vision &amp; Mission</a></li>
         <li><a href="programs.html">Programs</a></li>
-        <li><a href="sponsor.html">Sponsor</a></li>
+        <li><a href="sponsor.html">Partner With Us</a></li>
+        <li><a href="donate.html" class="active">Donate Supplies</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="register.html" class="nav-cta">Register a Girl</a></li>
       </ul>
@@ -479,9 +484,9 @@ fieldset legend{ font-weight: 700; font-size: 0.9rem; color: var(--twilight); pa
 <main id="main">
 <section class="page-hero">
   <div class="container">
-    <p class="eyebrow" data-reveal>Give a Donation</p>
-    <h1 data-reveal="1">Every naira reaches a real girl, a real session</h1>
-    <p data-reveal="2">Choose a tier below or enter a custom amount. Donations support materials, mentorship, and safe spaces for secondary-school-aged girls.</p>
+    <p class="eyebrow" data-reveal>Donate School Supplies</p>
+    <h1 data-reveal="1">Give a girl the tools she needs to learn with confidence</h1>
+    <p data-reveal="2">Donate practical school essentials to secondary-school-aged girls, or make a monetary gift so our team can purchase what a school community needs most.</p>
   </div>
 </section>
 
@@ -489,40 +494,88 @@ fieldset legend{ font-weight: 700; font-size: 0.9rem; color: var(--twilight); pa
   <div class="container">
     <div class="grid grid-3">
       <div class="card tier-card" data-reveal>
-        <span class="pillar-tag tag-droplet">Starter</span>
-        <div class="tier-price">&#8358;5,000 <span>/ one-time</span></div>
-        <p>Provides a menstrual dignity kit for one girl for a full term.</p>
+        <span class="pillar-tag tag-droplet">Learning materials</span>
+        <div class="tier-price">Study essentials</div>
+        <p>Help a student arrive prepared for lessons, revision, and assessments.</p>
         <ul class="tier-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Sanitary pads &amp; hygiene items</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Body literacy leaflet</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Notebooks</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Pens, pencils, rulers and erasers</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Mathematics sets</li>
         </ul>
-        <button class="btn btn-outline btn-full" type="button" data-tier-select="5000">Give &#8358;5,000</button>
       </div>
 
       <div class="card tier-card tier-featured" data-reveal="1">
-        <span class="tier-badge">Most impact</span>
-        <span class="pillar-tag tag-flower">Full session</span>
-        <div class="tier-price">&#8358;15,000 <span>/ one-time</span></div>
-        <p>Covers one girl&rsquo;s full two-session journey &mdash; materials, mentorship, and safety education.</p>
+        <span class="tier-badge">Most requested</span>
+        <span class="pillar-tag tag-flower">School essentials</span>
+        <div class="tier-price">Everyday confidence</div>
+        <p>Practical items that help girls participate fully and feel ready for the school day.</p>
         <ul class="tier-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Menstrual dignity kit</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Session 1 &amp; Session 2 materials</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Mentorship &amp; safety curriculum access</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> School bags</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Socks and school shoes</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Calculators and water bottles</li>
         </ul>
-        <button class="btn btn-primary btn-full" type="button" data-tier-select="15000">Give &#8358;15,000</button>
       </div>
 
       <div class="card tier-card" data-reveal="2">
-        <span class="pillar-tag tag-moon">Cohort sponsor</span>
-        <div class="tier-price">&#8358;50,000 <span>/ one-time</span></div>
-        <p>Sponsors a full cohort of ten girls through both sessions, start to finish.</p>
+        <span class="pillar-tag tag-moon">Dignity &amp; care</span>
+        <div class="tier-price">Well-being support</div>
+        <p>Help girls stay comfortable, supported, and ready to learn throughout the term.</p>
         <ul class="tier-list">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> 10 girls, fully equipped</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Facilitation &amp; venue support</li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Impact update after the cohort completes</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Sanitary products</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Personal-care items</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 13l4 4L19 7"/></svg> Educational and well-being resources</li>
         </ul>
-        <button class="btn btn-outline btn-full" type="button" data-tier-select="50000">Give &#8358;50,000</button>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight" style="background:var(--paper);">
+  <div class="container" style="max-width:760px;">
+    <div class="form-shell" data-reveal>
+      <p class="eyebrow">Offer items directly</p>
+      <h3>Tell us what you would like to donate</h3>
+      <p class="hint" style="margin-bottom:1.4rem;">Select the items you can provide and tell us roughly how many. Our team will confirm school needs, collection details, and the best next step.</p>
+
+      <form data-async data-form="supplies-donation" data-success="Thank you for offering school supplies &mdash; we'll be in touch to confirm the details." action="REPLACE_WITH_FORM_ENDPOINT" method="POST">
+        <div class="grid-form-2">
+          <div class="field">
+            <label for="supply-name">Full name</label>
+            <input type="text" id="supply-name" name="donor_name" required>
+          </div>
+          <div class="field">
+            <label for="supply-email">Email address</label>
+            <input type="email" id="supply-email" name="email" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="supply-phone">Phone number</label>
+          <input type="tel" id="supply-phone" name="phone" required>
+        </div>
+        <fieldset>
+          <legend>Items you can provide</legend>
+          <div class="check-grid">
+            <label><input type="checkbox" name="items" value="school-bags"> School bags</label>
+            <label><input type="checkbox" name="items" value="maths-sets"> Mathematics sets</label>
+            <label><input type="checkbox" name="items" value="notebooks"> Notebooks</label>
+            <label><input type="checkbox" name="items" value="socks"> Socks</label>
+            <label><input type="checkbox" name="items" value="calculators"> Calculators</label>
+            <label><input type="checkbox" name="items" value="stationery"> Pens and stationery</label>
+            <label><input type="checkbox" name="items" value="sanitary-products"> Sanitary products</label>
+            <label><input type="checkbox" name="items" value="other"> Other school essentials</label>
+          </div>
+        </fieldset>
+        <div class="field">
+          <label for="supply-quantity">Estimated quantity and item details</label>
+          <textarea id="supply-quantity" name="quantity_details" required placeholder="For example: 20 school bags and 50 notebooks"></textarea>
+        </div>
+        <div class="field">
+          <label for="supply-notes">Collection or delivery notes</label>
+          <textarea id="supply-notes" name="notes" placeholder="Tell us if you need collection support or have a preferred delivery date."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Offer These Supplies</button>
+        <div class="form-status" role="status" aria-live="polite"></div>
+      </form>
     </div>
   </div>
 </section>
@@ -530,8 +583,9 @@ fieldset legend{ font-weight: 700; font-size: 0.9rem; color: var(--twilight); pa
 <section class="section-tight" style="background:var(--paper);">
   <div class="container" style="max-width:640px;">
     <div class="form-shell" data-reveal>
-      <h3>Complete your donation</h3>
-      <p class="hint" style="margin-bottom:1.4rem;">Secure payment processing (Paystack / Flutterwave) is being finalised. This form captures your intent to give &mdash; our team will follow up to complete payment, or you&rsquo;ll be redirected to a live checkout once the gateway goes live.</p>
+      <p class="eyebrow">Prefer to give financially?</p>
+      <h3>Make a monetary donation</h3>
+      <p class="hint" style="margin-bottom:1.4rem;">Your gift helps us purchase the supplies schools need most, alongside materials, mentorship, and safe spaces for girls.</p>
 
       <form data-async data-form="donation" data-success="Thank you for your generosity &mdash; we'll be in touch to complete your donation." action="REPLACE_WITH_FORM_ENDPOINT" method="POST">
         <div class="grid-form-2">
@@ -559,7 +613,7 @@ fieldset legend{ font-weight: 700; font-size: 0.9rem; color: var(--twilight); pa
             <label for="freq-monthly">Monthly</label>
           </div>
         </fieldset>
-        <button type="submit" class="btn btn-primary btn-full">Continue to give &#8358;<span id="amt-echo"></span></button>
+        <button type="submit" class="btn btn-primary btn-full">Continue with &#8358;<span id="amt-echo"></span></button>
         <p class="hint center" style="margin-top:1rem;">You will not be charged yet &mdash; payment integration is being finalised.</p>
         <div class="form-status" role="status" aria-live="polite"></div>
       </form>
@@ -570,8 +624,8 @@ fieldset legend{ font-weight: 700; font-size: 0.9rem; color: var(--twilight); pa
 <section class="section-tight on-dark">
   <div class="container center max-prose mx-auto" data-reveal>
     <p class="eyebrow">Prefer another way to give?</p>
-    <p>If your organisation would rather fund a full cohort, supply materials directly, or set up a recurring partnership, our sponsorship page has more options.</p>
-    <a href="sponsor.html" class="btn btn-ghost">Explore partnership options</a>
+    <p>If your organisation would rather fund a full cohort, support a school programme, or set up a recurring partnership, our sponsorship page has more options.</p>
+    <a href="sponsor.html" class="btn btn-ghost">Explore sponsorship</a>
   </div>
 </section>
 </main><footer class="site-footer">
@@ -603,7 +657,7 @@ fieldset legend{ font-weight: 700; font-size: 0.9rem; color: var(--twilight); pa
       <div>
         <h4>Get Involved</h4>
         <a href="sponsor.html">Partner With Us</a>
-        <a href="donate.html">Give a Donation</a>
+        <a href="donate.html">Donate School Supplies</a>
         <a href="contact.html#volunteer">Volunteer</a>
       </div>
       <div>
@@ -669,6 +723,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   /* ---------- generic Formspree-style submit handler ----------
      Forms carry data-form="registration" | "sponsorship" | "contact"
+     | "donation" | "supplies-donation"
      and a real action URL should replace the placeholder below once
      the backend/service (Formspree or alternative) is finalized. */
   document.querySelectorAll('form[data-async]').forEach(function (form) {
