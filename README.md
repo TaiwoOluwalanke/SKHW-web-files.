@@ -1,1 +1,1 @@
-# SKHW-web-files.
+# SKHW-web-files
