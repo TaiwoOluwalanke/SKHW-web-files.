@@ -306,7 +306,7 @@ p{ margin: 0 0 1em; color: var(--ink-soft); }
   position: relative; overflow: hidden;
 }
 .page-hero h1{ color: var(--paper); max-width: 16ch; }
-.page-hero p{ color: #E7DBF2; max-width: 52ch; }
+.page-hero p{ color: #f4f2f6; max-width: 52ch; }
 
 /* ==========================================================================
    PILLAR STRIP / TIMELINE
@@ -501,6 +501,9 @@ fieldset legend{ font-weight: 700; font-size: 0.9rem; color: var(--twilight); pa
 .max-60{ max-width:60ch; }
 .hero-sub{ max-width:60ch; }
 .hero-compact{ padding-bottom:10px; }
+.hero-compact .eyebrow{ color: var(--dawn); }
+.hero-compact h1{ color: var(--paper); }
+.hero-compact p{ color: #E7DBF2; }
 .eyebrow-center{ justify-content:center; }
 .sponsor-stats{ padding-top:20px; }
 .stats-panel{ display:flex; flex-wrap:wrap; gap:40px; justify-content:space-around; text-align:center; }
