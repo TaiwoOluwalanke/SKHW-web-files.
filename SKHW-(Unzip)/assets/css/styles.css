@@ -253,6 +253,7 @@ p{ margin: 0 0 1em; color: var(--ink-soft); }
   box-shadow: var(--shadow-raised); background: var(--cream);
 }
 .pillar-icon-wrap svg{ width: 92px; height: 92px; }
+.pillar-icon-wrap img{ width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
 .pillar-tag{
   font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.1em;
   text-transform: uppercase; padding: 0.3rem 0.8rem; border-radius: var(--r-pill);
