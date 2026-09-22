@@ -524,7 +524,11 @@ fieldset legend{ font-weight: 700; font-size: 0.9rem; color: var(--twilight); pa
 .grid-align-center{ align-items:center; }
 .card-row{ align-items:center; gap:2rem; }
 .character-frame{ max-width:180px; margin-inline:auto; }
-.character-frame-reverse{ max-width:180px; margin-inline:auto; order:2; }
+.character-frame-reverse{ overflow: hidden; border-radius: 16px; }
+.character-frame img, .character-frame-reverse img{
+  width: 80%; height: 220px; object-fit: cover; border-radius: 10px;
+  transform: scale(1.15);
+}
 .content-reverse{ order:1; }
 .character-svg{ width:70%; }
 .heading-top{ margin-top:1rem; }
