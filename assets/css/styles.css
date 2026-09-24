@@ -389,17 +389,17 @@ fieldset legend{ font-weight: 700; font-size: 0.9rem; color: var(--twilight); pa
 /* ==========================================================================
    FOOTER
    ========================================================================== */
-.site-footer{ background: var(--twilight); color: #FAD9EA; padding: 3.5rem 0 2rem; }
+.site-footer{ background: var(--twilight); color: rgb(243, 80, 181); padding: 3.5rem 0 2rem; }
 .footer-grid{ display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 2.5rem; margin-bottom: 2.5rem; }
 @media (max-width: 780px){ .footer-grid{ grid-template-columns: 1fr 1fr; } }
 .footer-grid h4{ color: var(--paper); font-size: 0.95rem; margin-bottom: 0.9rem; font-family: var(--font-body); font-weight: 700; }
-.footer-grid a{ display: block; color: #D65595; font-size: 0.9rem; margin-bottom: 0.6rem; }
+.footer-grid a{ display: block; color: white; font-size: 0.9rem; margin-bottom: 0.6rem; }
 .footer-grid a:hover{ color: var(--marigold); }
-.footer-brand p{ color: #D65595; font-size: 0.9rem; max-width: 32ch; }
+.footer-brand p{ color: white; font-size: 0.9rem; max-width: 32ch; }
 .footer-bottom{
-  border-top: 1px solid rgba(255,255,255,0.12); padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 98, 108, 0.12); padding-top: 1.5rem;
   display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem;
-  font-size: 0.82rem; color: #B23D5C;
+  font-size: 0.82rem; color: white;
 }
 .social-row{ display: flex; gap: 0.8rem; }
 .social-row a{
